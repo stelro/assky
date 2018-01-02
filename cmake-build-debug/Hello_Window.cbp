@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Hello_Window"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello_Window">
+				<Option output="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Hello_Window" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_Window"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello_Window/fast">
+				<Option output="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Hello_Window" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_Window/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/main.cpp">
+			<Option target="Hello_Window"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace-gaming/Learning_OpenGL/1_1_Hello_Triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
