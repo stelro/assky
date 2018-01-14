@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//The directory containing a CMake configuration file for ASSIMP.
+ASSIMP_DIR:PATH=ASSIMP_DIR-NOTFOUND
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -214,6 +217,12 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//Path to a file.
+assimp_INCLUDE_DIRS:PATH=assimp_INCLUDE_DIRS-NOTFOUND
+
+//Path to a library.
+assimp_LIBRARIES:FILEPATH=assimp_LIBRARIES-NOTFOUND
 
 
 ########################

@@ -150,6 +150,33 @@ Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
+Mesh.o: Mesh.cpp.o
+
+.PHONY : Mesh.o
+
+# target to build an object file
+Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.o
+.PHONY : Mesh.cpp.o
+
+Mesh.i: Mesh.cpp.i
+
+.PHONY : Mesh.i
+
+# target to preprocess a source file
+Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.i
+.PHONY : Mesh.cpp.i
+
+Mesh.s: Mesh.cpp.s
+
+.PHONY : Mesh.s
+
+# target to generate assembly for a file
+Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.s
+.PHONY : Mesh.cpp.s
+
 ShaderProgram.o: ShaderProgram.cpp.o
 
 .PHONY : ShaderProgram.o
@@ -176,6 +203,33 @@ ShaderProgram.s: ShaderProgram.cpp.s
 ShaderProgram.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.s
 .PHONY : ShaderProgram.cpp.s
+
+Vertex.o: Vertex.cpp.o
+
+.PHONY : Vertex.o
+
+# target to build an object file
+Vertex.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.o
+.PHONY : Vertex.cpp.o
+
+Vertex.i: Vertex.cpp.i
+
+.PHONY : Vertex.i
+
+# target to preprocess a source file
+Vertex.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.i
+.PHONY : Vertex.cpp.i
+
+Vertex.s: Vertex.cpp.s
+
+.PHONY : Vertex.s
+
+# target to generate assembly for a file
+Vertex.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.s
+.PHONY : Vertex.cpp.s
 
 main.o: main.cpp.o
 
@@ -243,9 +297,15 @@ help:
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
+	@echo "... Mesh.o"
+	@echo "... Mesh.i"
+	@echo "... Mesh.s"
 	@echo "... ShaderProgram.o"
 	@echo "... ShaderProgram.i"
 	@echo "... ShaderProgram.s"
+	@echo "... Vertex.o"
+	@echo "... Vertex.i"
+	@echo "... Vertex.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

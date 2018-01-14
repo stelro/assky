@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/workspace/learning_opengl/Camera.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Camera.cpp.o"
+  "/home/stel/workspace/learning_opengl/Mesh.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Mesh.cpp.o"
   "/home/stel/workspace/learning_opengl/ShaderProgram.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.o"
+  "/home/stel/workspace/learning_opengl/Vertex.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Vertex.cpp.o"
   "/home/stel/workspace/learning_opengl/main.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/main.cpp.o"
   "/home/stel/workspace/learning_opengl/stb_image.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/stb_image.cpp.o"
   )

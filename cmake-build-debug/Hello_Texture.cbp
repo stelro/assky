@@ -5,7 +5,7 @@
 		<Option title="Hello_Texture"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/workspace/learning_opengl/cmake-build-debug"/>
@@ -90,10 +90,25 @@
 		<Unit filename="/home/stel/workspace/learning_opengl/Camera.hpp">
 			<Option target="Hello_Texture"/>
 		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Mesh.cpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Mesh.hpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/ShaderProgram.cpp">
 			<Option target="Hello_Texture"/>
 		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/ShaderProgram.h">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Texture.hpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Vertex.cpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Vertex.hpp">
 			<Option target="Hello_Texture"/>
 		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/main.cpp">
@@ -107,6 +122,9 @@
 		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/cmake/FindASSIMP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
