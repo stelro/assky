@@ -21,16 +21,26 @@ vector
 /home/stel/workspace/learning_opengl/Mesh.cpp
 Mesh.hpp
 /home/stel/workspace/learning_opengl/Mesh.hpp
-GL/glew.h
--
 
 /home/stel/workspace/learning_opengl/Mesh.hpp
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+ShaderProgram.h
+/home/stel/workspace/learning_opengl/ShaderProgram.h
 Vertex.hpp
 /home/stel/workspace/learning_opengl/Vertex.hpp
 Texture.hpp
 /home/stel/workspace/learning_opengl/Texture.hpp
-ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
 vector
 -
 
@@ -41,14 +51,10 @@ iostream
 -
 
 /home/stel/workspace/learning_opengl/Model.hpp
-string
+glm/glm.hpp
 -
-vector
+glm/gtc/matrix_transform.hpp
 -
-ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
-Mesh.hpp
-/home/stel/workspace/learning_opengl/Mesh.hpp
 stb_image.hpp
 /home/stel/workspace/learning_opengl/stb_image.hpp
 assimp/Importer.hpp
@@ -56,6 +62,22 @@ assimp/Importer.hpp
 assimp/scene.h
 -
 assimp/postprocess.h
+-
+ShaderProgram.h
+/home/stel/workspace/learning_opengl/ShaderProgram.h
+Mesh.hpp
+/home/stel/workspace/learning_opengl/Mesh.hpp
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+map
+-
+vector
 -
 
 /home/stel/workspace/learning_opengl/ShaderProgram.cpp

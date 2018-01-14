@@ -1,22 +1,43 @@
-//
-// Created by stel on 14/1/2018.
-//
+#ifndef MESH_H
+#define MESH_H
 
-#ifndef HELLO_TEXTURE_MESH_HPP
-#define HELLO_TEXTURE_MESH_HPP
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+
+#include "ShaderProgram.h"
 #include "Vertex.hpp"
 #include "Texture.hpp"
-#include "ShaderProgram.h"
 
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <iostream>
 #include <vector>
 
 class Mesh {
 public:
-    Mesh(std::vector<Vertex>& vertices, std::vector<unsigned int>& indices, std::vector<Texture>& textures);
+    Mesh(const std::vector<Vertex>& vertices,const std::vector<unsigned int>& indices,const std::vector<Texture>& textures) noexcept ;
     ~Mesh() noexcept ;
+    void Draw(const ShaderProgram& shader) noexcept ;
 
-    std::vector<Vertex> getVerticies() const noexcept {
+
+    // Setters
+    void setVertices(const std::vector<Vertex>& v) noexcept {
+        m_Vertices = v;
+    }
+
+    void setIndices(const std::vector<unsigned int>& v) noexcept {
+        m_Indices = v;
+    }
+
+    void setTextures(const std::vector<Texture>& v) noexcept {
+        m_Textures = v;
+    }
+
+    // Getters
+
+    std::vector<Vertex> getVertex() const noexcept {
         return m_Vertices;
     }
 
@@ -28,30 +49,17 @@ public:
         return m_Textures;
     }
 
-    void setVertices(const std::vector<Vertex>& vertices) {
-        m_Vertices = vertices;
-    }
-
-    void setIndices(const std::vector<unsigned int>& indeces) noexcept  {
-        m_Indices = indeces;
-    }
-
-    void setTextures(const std::vector<Texture>& textures) noexcept {
-        m_Textures = textures;
-    }
-
-    void Draw(const ShaderProgram& shader) noexcept ;
-
 private:
 
-    void setUpMesh() noexcept ;
 
     std::vector<Vertex> m_Vertices;
     std::vector<unsigned int> m_Indices;
     std::vector<Texture> m_Textures;
 
-    unsigned int m_VAO, m_VBO, m_EBO;
+    unsigned int m_VAO;
+    unsigned int m_VBO, m_EBO;
+
+
+    void setupMesh() noexcept ;
 };
-
-
-#endif //HELLO_TEXTURE_MESH_HPP
+#endif

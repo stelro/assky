@@ -16,7 +16,9 @@ public:
 
     bool loadShaders(const std::string& vertexShader, const std::string& fragmentShader);
     void use();
-    GLuint& getShaderProgram() { return m_Program; }
+
+    GLuint getShaderProgram() const { return m_Program; }
+
     void refreshShaders();
 
     void setMat4(const std::string& location, const glm::mat4& mat4);
