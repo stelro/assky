@@ -25,7 +25,7 @@ ShaderProgram::~ShaderProgram() {
     if (m_Program != 0)         glDeleteProgram(m_Program);
 }
 
-void ShaderProgram::useShaderProgram() {
+void ShaderProgram::use() {
     glUseProgram(m_Program);
 }
 

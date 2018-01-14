@@ -15,7 +15,7 @@ public:
     ~ShaderProgram();
 
     bool loadShaders(const std::string& vertexShader, const std::string& fragmentShader);
-    void useShaderProgram();
+    void use();
     GLuint& getShaderProgram() { return m_Program; }
     void refreshShaders();
 
