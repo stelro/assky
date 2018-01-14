@@ -143,7 +143,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Hello_Texture
+CMAKE_PROJECT_NAME:STATIC=assky
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -229,6 +229,12 @@ assimp_INCLUDE_DIRS:PATH=assimp_INCLUDE_DIRS-NOTFOUND
 
 //Path to a library.
 assimp_LIBRARIES:FILEPATH=/usr/local/lib/libassimp.so
+
+//Value Computed by CMake
+assky_BINARY_DIR:STATIC=/home/stel/workspace/learning_opengl/cmake-build-debug
+
+//Value Computed by CMake
+assky_SOURCE_DIR:STATIC=/home/stel/workspace/learning_opengl
 
 
 ########################

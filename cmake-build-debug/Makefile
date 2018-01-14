@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hello_Texture
+# Target rules for targets named assky
 
 # Build rule for target.
-Hello_Texture: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hello_Texture
-.PHONY : Hello_Texture
+assky: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assky
+.PHONY : assky
 
 # fast build rule for target.
-Hello_Texture/fast:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/build
-.PHONY : Hello_Texture/fast
+assky/fast:
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/build
+.PHONY : assky/fast
 
 Camera.o: Camera.cpp.o
 
@@ -129,7 +129,7 @@ Camera.o: Camera.cpp.o
 
 # target to build an object file
 Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Camera.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Camera.cpp.o
 .PHONY : Camera.cpp.o
 
 Camera.i: Camera.cpp.i
@@ -138,7 +138,7 @@ Camera.i: Camera.cpp.i
 
 # target to preprocess a source file
 Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Camera.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Camera.cpp.i
 .PHONY : Camera.cpp.i
 
 Camera.s: Camera.cpp.s
@@ -147,7 +147,7 @@ Camera.s: Camera.cpp.s
 
 # target to generate assembly for a file
 Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Camera.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
 Mesh.o: Mesh.cpp.o
@@ -156,7 +156,7 @@ Mesh.o: Mesh.cpp.o
 
 # target to build an object file
 Mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Mesh.cpp.o
 .PHONY : Mesh.cpp.o
 
 Mesh.i: Mesh.cpp.i
@@ -165,7 +165,7 @@ Mesh.i: Mesh.cpp.i
 
 # target to preprocess a source file
 Mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Mesh.cpp.i
 .PHONY : Mesh.cpp.i
 
 Mesh.s: Mesh.cpp.s
@@ -174,7 +174,7 @@ Mesh.s: Mesh.cpp.s
 
 # target to generate assembly for a file
 Mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Mesh.cpp.s
 .PHONY : Mesh.cpp.s
 
 Model.o: Model.cpp.o
@@ -183,7 +183,7 @@ Model.o: Model.cpp.o
 
 # target to build an object file
 Model.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Model.cpp.o
 .PHONY : Model.cpp.o
 
 Model.i: Model.cpp.i
@@ -192,7 +192,7 @@ Model.i: Model.cpp.i
 
 # target to preprocess a source file
 Model.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Model.cpp.i
 .PHONY : Model.cpp.i
 
 Model.s: Model.cpp.s
@@ -201,7 +201,7 @@ Model.s: Model.cpp.s
 
 # target to generate assembly for a file
 Model.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Model.cpp.s
 .PHONY : Model.cpp.s
 
 ShaderProgram.o: ShaderProgram.cpp.o
@@ -210,7 +210,7 @@ ShaderProgram.o: ShaderProgram.cpp.o
 
 # target to build an object file
 ShaderProgram.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/ShaderProgram.cpp.o
 .PHONY : ShaderProgram.cpp.o
 
 ShaderProgram.i: ShaderProgram.cpp.i
@@ -219,7 +219,7 @@ ShaderProgram.i: ShaderProgram.cpp.i
 
 # target to preprocess a source file
 ShaderProgram.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/ShaderProgram.cpp.i
 .PHONY : ShaderProgram.cpp.i
 
 ShaderProgram.s: ShaderProgram.cpp.s
@@ -228,7 +228,7 @@ ShaderProgram.s: ShaderProgram.cpp.s
 
 # target to generate assembly for a file
 ShaderProgram.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/ShaderProgram.cpp.s
 .PHONY : ShaderProgram.cpp.s
 
 Vertex.o: Vertex.cpp.o
@@ -237,7 +237,7 @@ Vertex.o: Vertex.cpp.o
 
 # target to build an object file
 Vertex.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Vertex.cpp.o
 .PHONY : Vertex.cpp.o
 
 Vertex.i: Vertex.cpp.i
@@ -246,7 +246,7 @@ Vertex.i: Vertex.cpp.i
 
 # target to preprocess a source file
 Vertex.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Vertex.cpp.i
 .PHONY : Vertex.cpp.i
 
 Vertex.s: Vertex.cpp.s
@@ -255,7 +255,7 @@ Vertex.s: Vertex.cpp.s
 
 # target to generate assembly for a file
 Vertex.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Vertex.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/Vertex.cpp.s
 .PHONY : Vertex.cpp.s
 
 main.o: main.cpp.o
@@ -264,7 +264,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -273,7 +273,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -282,7 +282,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 stb_image.o: stb_image.cpp.o
@@ -291,7 +291,7 @@ stb_image.o: stb_image.cpp.o
 
 # target to build an object file
 stb_image.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/stb_image.cpp.o
 .PHONY : stb_image.cpp.o
 
 stb_image.i: stb_image.cpp.i
@@ -300,7 +300,7 @@ stb_image.i: stb_image.cpp.i
 
 # target to preprocess a source file
 stb_image.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -309,7 +309,7 @@ stb_image.s: stb_image.cpp.s
 
 # target to generate assembly for a file
 stb_image.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/assky.dir/build.make CMakeFiles/assky.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 # Help Target
@@ -320,7 +320,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Hello_Texture"
+	@echo "... assky"
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
