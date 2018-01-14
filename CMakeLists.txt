@@ -5,27 +5,26 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-set(SOURCE_FILES main.cpp ShaderProgram.cpp ShaderProgram.h stb_image.hpp stb_image.cpp Camera.cpp Camera.hpp Vertex.cpp Vertex.hpp Texture.hpp Mesh.cpp Mesh.hpp)
+set(SOURCE_FILES main.cpp ShaderProgram.cpp ShaderProgram.h stb_image.hpp stb_image.cpp Camera.cpp Camera.hpp Vertex.cpp Vertex.hpp Texture.hpp Mesh.cpp Mesh.hpp Model.cpp Model.hpp)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 find_package(OpenGL REQUIRED)
 find_package(PkgConfig REQUIRED)
 
-#ASSIMP
-find_package(ASSIMP REQUIRED)
-if(ASSIMP_FOUND)
-    include_directories(${ASSIMP_INCLUDE_DIR})
-endif()
+find_package(assimp REQUIRED)
 
 
 pkg_search_module(GLFW REQUIRED glfw3)
+message(STATUS "Found GLFW3 in ${GLFW3_INCLUDE_DIR}")
+include_directories(${ASSIMP_INCLUDE_DIRS})
 
 include_directories(${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS} )
 include_directories(${GLFW_INCLUDE_DIRS})
 
 target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
 target_link_libraries(${PROJECT_NAME} ${GLFW_LIBRARIES} GLEW)
-target_link_libraries(${PROJECT_NAME} ${ASSIMP_LIBRARY})
+target_link_libraries(${PROJECT_NAME} ${ASSIMP_LIBRARIES})
+
 
 target_link_libraries(${PROJECT_NAME} ${GLFW_LIBRARIES} )
 

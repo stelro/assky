@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/workspace/learning_opengl/Camera.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Camera.cpp.o"
   "/home/stel/workspace/learning_opengl/Mesh.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Mesh.cpp.o"
+  "/home/stel/workspace/learning_opengl/Model.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Model.cpp.o"
   "/home/stel/workspace/learning_opengl/ShaderProgram.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/ShaderProgram.cpp.o"
   "/home/stel/workspace/learning_opengl/Vertex.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/Vertex.cpp.o"
   "/home/stel/workspace/learning_opengl/main.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/Hello_Texture.dir/main.cpp.o"
@@ -15,6 +16,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

@@ -5,7 +5,7 @@
 		<Option title="Hello_Texture"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-4.1\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/workspace/learning_opengl/cmake-build-debug"/>
@@ -44,11 +44,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
@@ -67,11 +67,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
@@ -94,6 +94,12 @@
 			<Option target="Hello_Texture"/>
 		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/Mesh.hpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Model.cpp">
+			<Option target="Hello_Texture"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/Model.hpp">
 			<Option target="Hello_Texture"/>
 		</Unit>
 		<Unit filename="/home/stel/workspace/learning_opengl/ShaderProgram.cpp">
@@ -123,8 +129,11 @@
 		<Unit filename="/home/stel/workspace/learning_opengl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/stel/workspace/learning_opengl/cmake/FindASSIMP.cmake">
-			<Option virtualFolder="CMake Files\cmake\"/>
+		<Unit filename="/home/stel/workspace/learning_opengl/../../../../usr/local/lib/cmake/assimp-4.1/assimp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-4.1\"/>
+		</Unit>
+		<Unit filename="/home/stel/workspace/learning_opengl/../../../../usr/local/lib/cmake/assimp-4.1/assimp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\assimp-4.1\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -201,6 +201,30 @@ CMakeFiles/Hello_Texture.dir/Mesh.cpp.o.provides: CMakeFiles/Hello_Texture.dir/M
 CMakeFiles/Hello_Texture.dir/Mesh.cpp.o.provides.build: CMakeFiles/Hello_Texture.dir/Mesh.cpp.o
 
 
+CMakeFiles/Hello_Texture.dir/Model.cpp.o: CMakeFiles/Hello_Texture.dir/flags.make
+CMakeFiles/Hello_Texture.dir/Model.cpp.o: ../Model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Hello_Texture.dir/Model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_Texture.dir/Model.cpp.o -c /home/stel/workspace/learning_opengl/Model.cpp
+
+CMakeFiles/Hello_Texture.dir/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_Texture.dir/Model.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/Model.cpp > CMakeFiles/Hello_Texture.dir/Model.cpp.i
+
+CMakeFiles/Hello_Texture.dir/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_Texture.dir/Model.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/Model.cpp -o CMakeFiles/Hello_Texture.dir/Model.cpp.s
+
+CMakeFiles/Hello_Texture.dir/Model.cpp.o.requires:
+
+.PHONY : CMakeFiles/Hello_Texture.dir/Model.cpp.o.requires
+
+CMakeFiles/Hello_Texture.dir/Model.cpp.o.provides: CMakeFiles/Hello_Texture.dir/Model.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.o.provides.build
+.PHONY : CMakeFiles/Hello_Texture.dir/Model.cpp.o.provides
+
+CMakeFiles/Hello_Texture.dir/Model.cpp.o.provides.build: CMakeFiles/Hello_Texture.dir/Model.cpp.o
+
+
 # Object files for target Hello_Texture
 Hello_Texture_OBJECTS = \
 "CMakeFiles/Hello_Texture.dir/main.cpp.o" \
@@ -208,7 +232,8 @@ Hello_Texture_OBJECTS = \
 "CMakeFiles/Hello_Texture.dir/stb_image.cpp.o" \
 "CMakeFiles/Hello_Texture.dir/Camera.cpp.o" \
 "CMakeFiles/Hello_Texture.dir/Vertex.cpp.o" \
-"CMakeFiles/Hello_Texture.dir/Mesh.cpp.o"
+"CMakeFiles/Hello_Texture.dir/Mesh.cpp.o" \
+"CMakeFiles/Hello_Texture.dir/Model.cpp.o"
 
 # External object files for target Hello_Texture
 Hello_Texture_EXTERNAL_OBJECTS =
@@ -219,11 +244,12 @@ Hello_Texture: CMakeFiles/Hello_Texture.dir/stb_image.cpp.o
 Hello_Texture: CMakeFiles/Hello_Texture.dir/Camera.cpp.o
 Hello_Texture: CMakeFiles/Hello_Texture.dir/Vertex.cpp.o
 Hello_Texture: CMakeFiles/Hello_Texture.dir/Mesh.cpp.o
+Hello_Texture: CMakeFiles/Hello_Texture.dir/Model.cpp.o
 Hello_Texture: CMakeFiles/Hello_Texture.dir/build.make
 Hello_Texture: /usr/lib/x86_64-linux-gnu/libGLU.so
 Hello_Texture: /usr/lib/x86_64-linux-gnu/libGL.so
 Hello_Texture: CMakeFiles/Hello_Texture.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Hello_Texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Hello_Texture"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello_Texture.dir/link.txt --verbose=$(VERBOSE)
 	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/learning_opengl/Shaders /home/stel/workspace/learning_opengl/cmake-build-debug/Shaders
 	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/learning_opengl/assets /home/stel/workspace/learning_opengl/cmake-build-debug/assets
@@ -239,6 +265,7 @@ CMakeFiles/Hello_Texture.dir/requires: CMakeFiles/Hello_Texture.dir/stb_image.cp
 CMakeFiles/Hello_Texture.dir/requires: CMakeFiles/Hello_Texture.dir/Camera.cpp.o.requires
 CMakeFiles/Hello_Texture.dir/requires: CMakeFiles/Hello_Texture.dir/Vertex.cpp.o.requires
 CMakeFiles/Hello_Texture.dir/requires: CMakeFiles/Hello_Texture.dir/Mesh.cpp.o.requires
+CMakeFiles/Hello_Texture.dir/requires: CMakeFiles/Hello_Texture.dir/Model.cpp.o.requires
 
 .PHONY : CMakeFiles/Hello_Texture.dir/requires
 

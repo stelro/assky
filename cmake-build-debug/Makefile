@@ -177,6 +177,33 @@ Mesh.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Mesh.cpp.s
 .PHONY : Mesh.cpp.s
 
+Model.o: Model.cpp.o
+
+.PHONY : Model.o
+
+# target to build an object file
+Model.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.o
+.PHONY : Model.cpp.o
+
+Model.i: Model.cpp.i
+
+.PHONY : Model.i
+
+# target to preprocess a source file
+Model.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.i
+.PHONY : Model.cpp.i
+
+Model.s: Model.cpp.s
+
+.PHONY : Model.s
+
+# target to generate assembly for a file
+Model.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_Texture.dir/build.make CMakeFiles/Hello_Texture.dir/Model.cpp.s
+.PHONY : Model.cpp.s
+
 ShaderProgram.o: ShaderProgram.cpp.o
 
 .PHONY : ShaderProgram.o
@@ -300,6 +327,9 @@ help:
 	@echo "... Mesh.o"
 	@echo "... Mesh.i"
 	@echo "... Mesh.s"
+	@echo "... Model.o"
+	@echo "... Model.i"
+	@echo "... Model.s"
 	@echo "... ShaderProgram.o"
 	@echo "... ShaderProgram.i"
 	@echo "... ShaderProgram.s"

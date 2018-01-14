@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hello_Texture.dir/Camera.cpp.o"
   "CMakeFiles/Hello_Texture.dir/Vertex.cpp.o"
   "CMakeFiles/Hello_Texture.dir/Mesh.cpp.o"
+  "CMakeFiles/Hello_Texture.dir/Model.cpp.o"
   "Hello_Texture.pdb"
   "Hello_Texture"
 )

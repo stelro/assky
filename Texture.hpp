@@ -10,6 +10,7 @@
 struct Texture {
     unsigned int id;
     std::string type;
+    std::string path;
 };
 
 #endif //HELLO_TEXTURE_TEXTURE_HPP

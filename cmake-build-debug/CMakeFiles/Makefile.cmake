@@ -34,7 +34,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeSystem.cmake"
-  "../cmake/FindASSIMP.cmake"
+  "/usr/local/lib/cmake/assimp-4.1/assimp-config-version.cmake"
+  "/usr/local/lib/cmake/assimp-4.1/assimp-config.cmake"
   )
 
 # The corresponding makefile is:

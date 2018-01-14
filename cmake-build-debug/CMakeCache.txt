@@ -17,6 +17,9 @@
 //The directory containing a CMake configuration file for ASSIMP.
 ASSIMP_DIR:PATH=ASSIMP_DIR-NOTFOUND
 
+//the suffix for the openrave libraries
+ASSIMP_LIBRARY_SUFFIX:STRING=
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -218,17 +221,22 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//The directory containing a CMake configuration file for assimp.
+assimp_DIR:PATH=/usr/local/lib/cmake/assimp-4.1
+
 //Path to a file.
 assimp_INCLUDE_DIRS:PATH=assimp_INCLUDE_DIRS-NOTFOUND
 
 //Path to a library.
-assimp_LIBRARIES:FILEPATH=assimp_LIBRARIES-NOTFOUND
+assimp_LIBRARIES:FILEPATH=/usr/local/lib/libassimp.so
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ASSIMP_LIBRARY_SUFFIX
+ASSIMP_LIBRARY_SUFFIX-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
