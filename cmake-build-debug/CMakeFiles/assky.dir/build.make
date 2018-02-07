@@ -43,10 +43,10 @@ RM = /home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stel/workspace/learning_opengl
+CMAKE_SOURCE_DIR = /home/stel/workspace/assky
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stel/workspace/learning_opengl/cmake-build-debug
+CMAKE_BINARY_DIR = /home/stel/workspace/assky/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/assky.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/assky.dir/flags.make
 
 CMakeFiles/assky.dir/main.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assky.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/main.cpp.o -c /home/stel/workspace/learning_opengl/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assky.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/main.cpp.o -c /home/stel/workspace/assky/main.cpp
 
 CMakeFiles/assky.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/main.cpp > CMakeFiles/assky.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/main.cpp > CMakeFiles/assky.dir/main.cpp.i
 
 CMakeFiles/assky.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/main.cpp -o CMakeFiles/assky.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/main.cpp -o CMakeFiles/assky.dir/main.cpp.s
 
 CMakeFiles/assky.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/assky.dir/main.cpp.o.provides.build: CMakeFiles/assky.dir/main.cpp.o
 
 CMakeFiles/assky.dir/ShaderProgram.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/ShaderProgram.cpp.o: ../ShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assky.dir/ShaderProgram.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/ShaderProgram.cpp.o -c /home/stel/workspace/learning_opengl/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assky.dir/ShaderProgram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/ShaderProgram.cpp.o -c /home/stel/workspace/assky/ShaderProgram.cpp
 
 CMakeFiles/assky.dir/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/ShaderProgram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/ShaderProgram.cpp > CMakeFiles/assky.dir/ShaderProgram.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/ShaderProgram.cpp > CMakeFiles/assky.dir/ShaderProgram.cpp.i
 
 CMakeFiles/assky.dir/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/ShaderProgram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/ShaderProgram.cpp -o CMakeFiles/assky.dir/ShaderProgram.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/ShaderProgram.cpp -o CMakeFiles/assky.dir/ShaderProgram.cpp.s
 
 CMakeFiles/assky.dir/ShaderProgram.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/assky.dir/ShaderProgram.cpp.o.provides.build: CMakeFiles/assky.dir/Sh
 
 CMakeFiles/assky.dir/stb_image.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/stb_image.cpp.o: ../stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assky.dir/stb_image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/stb_image.cpp.o -c /home/stel/workspace/learning_opengl/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assky.dir/stb_image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/stb_image.cpp.o -c /home/stel/workspace/assky/stb_image.cpp
 
 CMakeFiles/assky.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/stb_image.cpp > CMakeFiles/assky.dir/stb_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/stb_image.cpp > CMakeFiles/assky.dir/stb_image.cpp.i
 
 CMakeFiles/assky.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/stb_image.cpp -o CMakeFiles/assky.dir/stb_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/stb_image.cpp -o CMakeFiles/assky.dir/stb_image.cpp.s
 
 CMakeFiles/assky.dir/stb_image.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/assky.dir/stb_image.cpp.o.provides.build: CMakeFiles/assky.dir/stb_im
 
 CMakeFiles/assky.dir/Camera.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/Camera.cpp.o: ../Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assky.dir/Camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Camera.cpp.o -c /home/stel/workspace/learning_opengl/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assky.dir/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Camera.cpp.o -c /home/stel/workspace/assky/Camera.cpp
 
 CMakeFiles/assky.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/Camera.cpp > CMakeFiles/assky.dir/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/Camera.cpp > CMakeFiles/assky.dir/Camera.cpp.i
 
 CMakeFiles/assky.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/Camera.cpp -o CMakeFiles/assky.dir/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/Camera.cpp -o CMakeFiles/assky.dir/Camera.cpp.s
 
 CMakeFiles/assky.dir/Camera.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/assky.dir/Camera.cpp.o.provides.build: CMakeFiles/assky.dir/Camera.cp
 
 CMakeFiles/assky.dir/Vertex.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/Vertex.cpp.o: ../Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assky.dir/Vertex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Vertex.cpp.o -c /home/stel/workspace/learning_opengl/Vertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assky.dir/Vertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Vertex.cpp.o -c /home/stel/workspace/assky/Vertex.cpp
 
 CMakeFiles/assky.dir/Vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/Vertex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/Vertex.cpp > CMakeFiles/assky.dir/Vertex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/Vertex.cpp > CMakeFiles/assky.dir/Vertex.cpp.i
 
 CMakeFiles/assky.dir/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/Vertex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/Vertex.cpp -o CMakeFiles/assky.dir/Vertex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/Vertex.cpp -o CMakeFiles/assky.dir/Vertex.cpp.s
 
 CMakeFiles/assky.dir/Vertex.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/assky.dir/Vertex.cpp.o.provides.build: CMakeFiles/assky.dir/Vertex.cp
 
 CMakeFiles/assky.dir/Mesh.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/Mesh.cpp.o: ../Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assky.dir/Mesh.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Mesh.cpp.o -c /home/stel/workspace/learning_opengl/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assky.dir/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Mesh.cpp.o -c /home/stel/workspace/assky/Mesh.cpp
 
 CMakeFiles/assky.dir/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/Mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/Mesh.cpp > CMakeFiles/assky.dir/Mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/Mesh.cpp > CMakeFiles/assky.dir/Mesh.cpp.i
 
 CMakeFiles/assky.dir/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/Mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/Mesh.cpp -o CMakeFiles/assky.dir/Mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/Mesh.cpp -o CMakeFiles/assky.dir/Mesh.cpp.s
 
 CMakeFiles/assky.dir/Mesh.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/assky.dir/Mesh.cpp.o.provides.build: CMakeFiles/assky.dir/Mesh.cpp.o
 
 CMakeFiles/assky.dir/Model.cpp.o: CMakeFiles/assky.dir/flags.make
 CMakeFiles/assky.dir/Model.cpp.o: ../Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/assky.dir/Model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Model.cpp.o -c /home/stel/workspace/learning_opengl/Model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/assky.dir/Model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assky.dir/Model.cpp.o -c /home/stel/workspace/assky/Model.cpp
 
 CMakeFiles/assky.dir/Model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assky.dir/Model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/learning_opengl/Model.cpp > CMakeFiles/assky.dir/Model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/workspace/assky/Model.cpp > CMakeFiles/assky.dir/Model.cpp.i
 
 CMakeFiles/assky.dir/Model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assky.dir/Model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/learning_opengl/Model.cpp -o CMakeFiles/assky.dir/Model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/workspace/assky/Model.cpp -o CMakeFiles/assky.dir/Model.cpp.s
 
 CMakeFiles/assky.dir/Model.cpp.o.requires:
 
@@ -249,10 +249,10 @@ assky: CMakeFiles/assky.dir/build.make
 assky: /usr/lib/x86_64-linux-gnu/libGLU.so
 assky: /usr/lib/x86_64-linux-gnu/libGL.so
 assky: CMakeFiles/assky.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable assky"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/workspace/assky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable assky"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assky.dir/link.txt --verbose=$(VERBOSE)
-	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/learning_opengl/Shaders /home/stel/workspace/learning_opengl/cmake-build-debug/Shaders
-	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/learning_opengl/assets /home/stel/workspace/learning_opengl/cmake-build-debug/assets
+	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/assky/Shaders /home/stel/workspace/assky/cmake-build-debug/Shaders
+	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E copy_directory /home/stel/workspace/assky/assets /home/stel/workspace/assky/cmake-build-debug/assets
 
 # Rule to build all files generated by this target.
 CMakeFiles/assky.dir/build: assky
@@ -274,6 +274,6 @@ CMakeFiles/assky.dir/clean:
 .PHONY : CMakeFiles/assky.dir/clean
 
 CMakeFiles/assky.dir/depend:
-	cd /home/stel/workspace/learning_opengl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stel/workspace/learning_opengl /home/stel/workspace/learning_opengl /home/stel/workspace/learning_opengl/cmake-build-debug /home/stel/workspace/learning_opengl/cmake-build-debug /home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stel/workspace/assky/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stel/workspace/assky /home/stel/workspace/assky /home/stel/workspace/assky/cmake-build-debug /home/stel/workspace/assky/cmake-build-debug /home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/assky.dir/depend
 

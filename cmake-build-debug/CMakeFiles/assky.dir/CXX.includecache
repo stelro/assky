@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/stel/workspace/learning_opengl/Camera.cpp
+/home/stel/workspace/assky/Camera.cpp
 Camera.hpp
-/home/stel/workspace/learning_opengl/Camera.hpp
+/home/stel/workspace/assky/Camera.hpp
 
-/home/stel/workspace/learning_opengl/Camera.hpp
+/home/stel/workspace/assky/Camera.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -18,21 +18,21 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-/home/stel/workspace/learning_opengl/Mesh.cpp
+/home/stel/workspace/assky/Mesh.cpp
 Mesh.hpp
-/home/stel/workspace/learning_opengl/Mesh.hpp
+/home/stel/workspace/assky/Mesh.hpp
 
-/home/stel/workspace/learning_opengl/Mesh.hpp
+/home/stel/workspace/assky/Mesh.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+/home/stel/workspace/assky/ShaderProgram.h
 Vertex.hpp
-/home/stel/workspace/learning_opengl/Vertex.hpp
+/home/stel/workspace/assky/Vertex.hpp
 Texture.hpp
-/home/stel/workspace/learning_opengl/Texture.hpp
+/home/stel/workspace/assky/Texture.hpp
 string
 -
 fstream
@@ -44,19 +44,19 @@ iostream
 vector
 -
 
-/home/stel/workspace/learning_opengl/Model.cpp
+/home/stel/workspace/assky/Model.cpp
 Model.hpp
-/home/stel/workspace/learning_opengl/Model.hpp
+/home/stel/workspace/assky/Model.hpp
 iostream
 -
 
-/home/stel/workspace/learning_opengl/Model.hpp
+/home/stel/workspace/assky/Model.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 stb_image.hpp
-/home/stel/workspace/learning_opengl/stb_image.hpp
+/home/stel/workspace/assky/stb_image.hpp
 assimp/Importer.hpp
 -
 assimp/scene.h
@@ -64,9 +64,9 @@ assimp/scene.h
 assimp/postprocess.h
 -
 ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+/home/stel/workspace/assky/ShaderProgram.h
 Mesh.hpp
-/home/stel/workspace/learning_opengl/Mesh.hpp
+/home/stel/workspace/assky/Mesh.hpp
 string
 -
 fstream
@@ -80,9 +80,9 @@ map
 vector
 -
 
-/home/stel/workspace/learning_opengl/ShaderProgram.cpp
+/home/stel/workspace/assky/ShaderProgram.cpp
 ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+/home/stel/workspace/assky/ShaderProgram.h
 fstream
 -
 iostream
@@ -94,7 +94,7 @@ vector
 glm/gtc/type_ptr.hpp
 -
 
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+/home/stel/workspace/assky/ShaderProgram.h
 string
 -
 GL/glew.h
@@ -102,19 +102,19 @@ GL/glew.h
 glm/glm.hpp
 -
 
-/home/stel/workspace/learning_opengl/Texture.hpp
+/home/stel/workspace/assky/Texture.hpp
 string
 -
 
-/home/stel/workspace/learning_opengl/Vertex.cpp
+/home/stel/workspace/assky/Vertex.cpp
 Vertex.hpp
-/home/stel/workspace/learning_opengl/Vertex.hpp
+/home/stel/workspace/assky/Vertex.hpp
 
-/home/stel/workspace/learning_opengl/Vertex.hpp
+/home/stel/workspace/assky/Vertex.hpp
 glm/glm.hpp
 -
 
-/home/stel/workspace/learning_opengl/main.cpp
+/home/stel/workspace/assky/main.cpp
 iostream
 -
 array
@@ -128,7 +128,7 @@ GLFW/glfw3.h
 tgmath.h
 -
 Model.hpp
-/home/stel/workspace/learning_opengl/Model.hpp
+/home/stel/workspace/assky/Model.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -136,19 +136,19 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 ShaderProgram.h
-/home/stel/workspace/learning_opengl/ShaderProgram.h
+/home/stel/workspace/assky/ShaderProgram.h
 Camera.hpp
-/home/stel/workspace/learning_opengl/Camera.hpp
+/home/stel/workspace/assky/Camera.hpp
 stb_image.hpp
-/home/stel/workspace/learning_opengl/stb_image.hpp
+/home/stel/workspace/assky/stb_image.hpp
 
-/home/stel/workspace/learning_opengl/stb_image.cpp
+/home/stel/workspace/assky/stb_image.cpp
 stb_image.hpp
-/home/stel/workspace/learning_opengl/stb_image.hpp
+/home/stel/workspace/assky/stb_image.hpp
 
-/home/stel/workspace/learning_opengl/stb_image.hpp
+/home/stel/workspace/assky/stb_image.hpp
 stb_image.h
-/home/stel/workspace/learning_opengl/stb_image.h
+/home/stel/workspace/assky/stb_image.h
 stdio.h
 -
 stdarg.h

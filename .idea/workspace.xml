@@ -35,10 +35,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+            <state relative-caret-position="-1325">
+              <caret line="170" column="51" lean-forward="true" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
               <folding>
-                <element signature="e#6#25#0" expanded="true" />
                 <element signature="e#117#140#0" expanded="true" />
                 <element signature="e#190#212#0" expanded="true" />
                 <element signature="e#302#328#0" expanded="true" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="model_vertex.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shaders/model_vertex.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -60,8 +59,8 @@
       <file leaf-file-name="model_fragment.glsl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shaders/model_fragment.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="1106">
+              <caret line="92" column="78" lean-forward="false" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -81,6 +80,7 @@
       <find>glenable</find>
       <find>gle</find>
       <find>assimp</find>
+      <find>lgith</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +106,6 @@
         <option value="$PROJECT_DIR$/Shaders/fragment_shader.glsl" />
         <option value="$PROJECT_DIR$/Findassimp.cmake" />
         <option value="$PROJECT_DIR$/Vertex.cpp" />
-        <option value="$PROJECT_DIR$/Shaders/model_vertex.glsl" />
         <option value="$PROJECT_DIR$/Vertex.hpp" />
         <option value="$PROJECT_DIR$/Texture.hpp" />
         <option value="$PROJECT_DIR$/Mesh.cpp" />
@@ -115,9 +114,12 @@
         <option value="$PROJECT_DIR$/Model.cpp" />
         <option value="$PROJECT_DIR$/Mesh.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Shaders/lighting_fragment.glsl" />
+        <option value="$PROJECT_DIR$/Shaders/lighting_vertex.glsl" />
+        <option value="$PROJECT_DIR$/Shaders/model_vertex.glsl" />
         <option value="$PROJECT_DIR$/Shaders/model_fragment.glsl" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -155,16 +157,11 @@
           <expand>
             <path>
               <item name="assky" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="learning_opengl" type="462c0819:PsiDirectoryNode" />
+              <item name="assky" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assky" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="learning_opengl" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assky" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="learning_opengl" type="462c0819:PsiDirectoryNode" />
+              <item name="assky" type="462c0819:PsiDirectoryNode" />
               <item name="Shaders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,12 +252,17 @@
       <workItem from="1515892092046" duration="5032000" />
       <workItem from="1515937414158" duration="4324000" />
       <workItem from="1515943943597" duration="4907000" />
-      <workItem from="1515953026557" duration="3708000" />
+      <workItem from="1515953026557" duration="4505000" />
+      <workItem from="1515964502406" duration="341000" />
+      <workItem from="1516204134401" duration="254000" />
+      <workItem from="1517893362617" duration="368000" />
+      <workItem from="1518021606992" duration="231000" />
+      <workItem from="1518021918695" duration="4237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81348000" />
+    <option name="totallyTimeSpent" value="87576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,13 +277,13 @@
     <frame x="0" y="28" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14232409" sideWeight="0.49543378" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.49543378" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17149478" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17149478" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17149478" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32560834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -332,33 +334,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShaderProgram.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/fragment_shader.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/vertex_shader.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -392,7 +372,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -426,7 +405,6 @@
         <state relative-caret-position="414">
           <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -460,7 +438,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -494,7 +471,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -514,7 +490,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -544,9 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-          <folding>
-            <element signature="e#35#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,34 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/lamp_fragment.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/lamp_vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/vertex_shader.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/fragment_shader.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -610,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
           <caret line="159" column="36" lean-forward="false" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#20#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
-          <folding>
-            <element signature="e#34#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#32#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +625,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="238">
             <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -705,12 +632,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/nanosuit/nanosuit.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63061">
+          <caret line="8509" column="30" lean-forward="true" selection-start-line="8509" selection-start-column="30" selection-end-line="8509" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/vertex_shader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/fragment_shader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="27" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/lamp_fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/lamp_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/lighting_fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/lighting_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shaders/model_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        <state relative-caret-position="-1325">
+          <caret line="170" column="51" lean-forward="true" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
           <folding>
-            <element signature="e#6#25#0" expanded="true" />
             <element signature="e#117#140#0" expanded="true" />
             <element signature="e#190#212#0" expanded="true" />
             <element signature="e#302#328#0" expanded="true" />
@@ -718,18 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shaders/model_vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shaders/model_fragment.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="1106">
+          <caret line="92" column="78" lean-forward="false" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
           <folding />
         </state>
       </provider>

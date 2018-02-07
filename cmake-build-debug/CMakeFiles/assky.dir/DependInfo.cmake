@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stel/workspace/learning_opengl/Camera.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/Camera.cpp.o"
-  "/home/stel/workspace/learning_opengl/Mesh.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/Mesh.cpp.o"
-  "/home/stel/workspace/learning_opengl/Model.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/Model.cpp.o"
-  "/home/stel/workspace/learning_opengl/ShaderProgram.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/ShaderProgram.cpp.o"
-  "/home/stel/workspace/learning_opengl/Vertex.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/Vertex.cpp.o"
-  "/home/stel/workspace/learning_opengl/main.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/main.cpp.o"
-  "/home/stel/workspace/learning_opengl/stb_image.cpp" "/home/stel/workspace/learning_opengl/cmake-build-debug/CMakeFiles/assky.dir/stb_image.cpp.o"
+  "/home/stel/workspace/assky/Camera.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/Camera.cpp.o"
+  "/home/stel/workspace/assky/Mesh.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/Mesh.cpp.o"
+  "/home/stel/workspace/assky/Model.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/Model.cpp.o"
+  "/home/stel/workspace/assky/ShaderProgram.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/ShaderProgram.cpp.o"
+  "/home/stel/workspace/assky/Vertex.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/Vertex.cpp.o"
+  "/home/stel/workspace/assky/main.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/main.cpp.o"
+  "/home/stel/workspace/assky/stb_image.cpp" "/home/stel/workspace/assky/cmake-build-debug/CMakeFiles/assky.dir/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

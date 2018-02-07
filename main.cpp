@@ -81,8 +81,69 @@ int main()
     ShaderProgram shader;
     shader.loadShaders("Shaders/model_vertex.glsl", "Shaders/model_fragment.glsl");
 
+    ShaderProgram lampShader;
+    lampShader.loadShaders("Shaders/lamp_vertex.glsl", "Shaders/lamp_fragment.glsl");
+
+    float verticies[] = {
+            // positions
+            -0.5f, -0.5f, -0.5f,
+            0.5f, -0.5f, -0.5f,
+            0.5f,  0.5f, -0.5f,
+            0.5f,  0.5f, -0.5f,
+            -0.5f,  0.5f, -0.5f,
+            -0.5f, -0.5f, -0.5f,
+
+            -0.5f, -0.5f,  0.5f,
+            0.5f, -0.5f,  0.5f,
+            0.5f,  0.5f,  0.5f,
+            0.5f,  0.5f,  0.5f,
+            -0.5f,  0.5f,  0.5f,
+            -0.5f, -0.5f,  0.5f,
+
+            -0.5f,  0.5f,  0.5f,
+            -0.5f,  0.5f, -0.5f,
+            -0.5f, -0.5f, -0.5f,
+            -0.5f, -0.5f, -0.5f,
+            -0.5f, -0.5f,  0.5f,
+            -0.5f,  0.5f,  0.5f,
+
+            0.5f,  0.5f,  0.5f,
+            0.5f,  0.5f, -0.5f,
+            0.5f, -0.5f, -0.5f,
+            0.5f, -0.5f, -0.5f,
+            0.5f, -0.5f,  0.5f,
+            0.5f,  0.5f,  0.5f,
+
+            -0.5f, -0.5f, -0.5f,
+            0.5f, -0.5f, -0.5f,
+            0.5f, -0.5f,  0.5f,
+            0.5f, -0.5f,  0.5f,
+            -0.5f, -0.5f,  0.5f,
+            -0.5f, -0.5f, -0.5f,
+
+            -0.5f,  0.5f, -0.5f,
+            0.5f,  0.5f, -0.5f,
+            0.5f,  0.5f,  0.5f,
+            0.5f,  0.5f,  0.5f,
+            -0.5f,  0.5f,  0.5f,
+            -0.5f,  0.5f, -0.5f,
+    };
+
 
     Model nanosuit_model("assets/nanosuit/nanosuit.obj");
+
+    glm::vec3 lightPosition =  glm::vec3( 0.0f,  1.5f, 1.4f);
+
+    unsigned int lampVBO, lampVAO;
+    glGenVertexArrays(1, &lampVAO);
+    glGenBuffers(1, &lampVBO);
+    glBindVertexArray(lampVAO);
+
+    glBindBuffer(GL_ARRAY_BUFFER, lampVBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(verticies), verticies, GL_STATIC_DRAW);
+
+    glVertexAttribPointer(0,3,GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
 
 
     while (!glfwWindowShouldClose(window)) {
@@ -107,6 +168,23 @@ int main()
 
         // don't forget to enable shader before setting uniforms
         shader.use();
+        shader.setVec3("viewPos", camera.Position);
+        shader.setFloat("material.shininess", 32.0f);
+
+        // directional light
+        shader.setVec3("dirLight.direction", -0.2f, -1.0f, -0.3f);
+        shader.setVec3("dirLight.ambient", 0.05f, 0.05f, 0.05f);
+        shader.setVec3("dirLight.diffuse", 0.4f, 0.4f, 0.4f);
+        shader.setVec3("dirLight.specular", 0.5f, 0.5f, 0.5f);
+
+        // point light 1
+        shader.setVec3("pointLight.position", lightPosition);
+        shader.setVec3("pointLight.ambient", 0.05f, 0.05f, 0.05f);
+        shader.setVec3("pointLight.diffuse", 0.8f, 0.8f, 0.8f);
+        shader.setVec3("pointLight.specular", 1.0f, 1.0f, 1.0f);
+        shader.setFloat("pointLight.constant", 1.0f);
+        shader.setFloat("pointLight.linear", 0.09);
+        shader.setFloat("pointLight.quadratic", 0.032);
 
         // view/projection transformations
         glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)WINDOW_WIDTH / (float)WINDOW_HEIGHT, 0.1f, 100.0f);
@@ -120,6 +198,18 @@ int main()
         model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// it's a bit too big for our scene, so scale it down
         shader.setMat4("model", model);
         nanosuit_model.Draw(shader);
+
+        // Draw the lamp
+        lampShader.use();
+        lampShader.setMat4("projection", projection);
+        lampShader.setMat4("view", view);
+        glBindVertexArray(lampVAO);
+        model = glm::mat4();
+        model = glm::translate(model, lightPosition);
+        model = glm::scale(model, glm::vec3(0.2f));
+        lampShader.setMat4("model", model);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
 
         glfwSwapBuffers(window);
         glfwPollEvents();
